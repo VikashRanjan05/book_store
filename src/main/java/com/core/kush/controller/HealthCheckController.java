@@ -1,4 +1,4 @@
-package com.vasitum.core.controller;
+package com.core.kush.controller;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -23,6 +23,10 @@ public class HealthCheckController {
     @GetMapping(value = "/healthcheck", produces = APPLICATION_JSON_VALUE)
     public HealthCheckResponse getResponse() {
         return new HealthCheckResponse("Vasitum core is running");
+    }
+
+    public int add(int a, int b) {
+        return a + b;
     }
 
 
