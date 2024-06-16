@@ -1,4 +1,4 @@
-package com.core.kush;
+package com.core.bookstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

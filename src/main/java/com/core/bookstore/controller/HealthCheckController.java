@@ -1,4 +1,4 @@
-package com.core.kush.controller;
+package com.core.bookstore.controller;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

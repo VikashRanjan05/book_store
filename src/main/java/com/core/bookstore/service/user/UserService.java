@@ -1,8 +1,8 @@
-package com.core.kush.service.user;
+package com.core.bookstore.service.user;
 
-import com.core.kush.controller.user.dto.CreateUserRequest;
-import com.core.kush.dao.model.User;
-import com.core.kush.dao.repository.UserRepository;
+import com.core.bookstore.controller.user.dto.CreateUserRequest;
+import com.core.bookstore.dao.model.User;
+import com.core.bookstore.dao.repository.UserRepository;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 

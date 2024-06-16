@@ -1,6 +1,6 @@
-package com.core.kush.dao.repository;
+package com.core.bookstore.dao.repository;
 
-import com.core.kush.dao.model.User;
+import com.core.bookstore.dao.model.User;
 import jakarta.annotation.Resource;
 import org.springframework.data.repository.CrudRepository;
 

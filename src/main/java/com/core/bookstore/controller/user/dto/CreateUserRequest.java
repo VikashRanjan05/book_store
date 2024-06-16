@@ -1,4 +1,4 @@
-package com.core.kush.controller.user.dto;
+package com.core.bookstore.controller.user.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

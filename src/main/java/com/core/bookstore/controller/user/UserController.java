@@ -1,7 +1,7 @@
-package com.core.kush.controller.user;
+package com.core.bookstore.controller.user;
 
-import com.core.kush.controller.user.dto.CreateUserRequest;
-import com.core.kush.service.user.UserService;
+import com.core.bookstore.controller.user.dto.CreateUserRequest;
+import com.core.bookstore.service.user.UserService;
 import jakarta.annotation.Resource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

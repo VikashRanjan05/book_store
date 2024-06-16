@@ -1,4 +1,4 @@
-package com.core.kush.dao.model;
+package com.core.bookstore.dao.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
