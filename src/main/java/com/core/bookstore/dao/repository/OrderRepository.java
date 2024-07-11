@@ -1,14 +1,12 @@
 package com.core.bookstore.dao.repository;
 
-import com.core.bookstore.dao.model.User;
-import jakarta.annotation.Resource;
+import com.core.bookstore.dao.model.Order;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
 @Repository
-public interface UserRepository extends CrudRepository<User, Long> {
-
-    Optional<User> findByEmail(String email);
+public interface OrderRepository extends CrudRepository<Order, Long> {
+    Optional<Order> findByName(String name);
 }
